@@ -1,0 +1,72 @@
+$tableborderColor: #dddddd;//SCSS Variable
+
+img{
+	height: 50px;
+}
+
+body{//First selector
+	text-align: center;
+}
+
+a:hover{//Second selector
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.row div{//Third selector
+	padding:10px;
+}
+
+.navbar > a{//Four selector
+	text-align: center;
+}
+
+#table {
+  td,th{//Five selector and nesting
+  border: 1px solid $tableborderColor;
+  text-align: left;
+  padding: 10px;
+  }
+}
+
+%navitem{
+  background-size: 100% 100%;
+  height:100px;
+}
+
+.nutritionimg{
+  @extend %navitem;//inheritance
+	background-image: url('images/nutrition.svg');
+}
+
+.exerciseimg{
+  @extend %navitem;
+	background-image: url('images/tennisball.svg');
+}
+
+.listimg{
+  @extend %navitem;
+  background-image: url('images/hearth.svg');
+}
+
+.tableimg{
+  @extend %navitem;
+  background-image: url('images/evidence.svg');
+}
+
+.aboutimg{
+  @extend %navitem;
+  background-image: url('images/earth.svg');
+}
+
+.nav-link{
+	color: black;
+}
+
+.nav-link:hover{
+	color:grey;
+}
+
+.navbar-brand{
+  float:none;
+}

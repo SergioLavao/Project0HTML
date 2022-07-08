@@ -1,0 +1,65 @@
+img {
+  height: 50px;
+}
+
+body {
+  text-align: center;
+}
+
+a:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.row div {
+  padding: 10px;
+}
+
+.navbar > a {
+  text-align: center;
+}
+
+#table td, #table th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+.aboutimg, .tableimg, .listimg, .exerciseimg, .nutritionimg {
+  background-size: 100% 100%;
+  height: 100px;
+}
+
+.nutritionimg {
+  background-image: url("images/nutrition.svg");
+}
+
+.exerciseimg {
+  background-image: url("images/tennisball.svg");
+}
+
+.listimg {
+  background-image: url("images/hearth.svg");
+}
+
+.tableimg {
+  background-image: url("images/evidence.svg");
+}
+
+.aboutimg {
+  background-image: url("images/earth.svg");
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+.navbar-brand {
+  float: none;
+}
+
+/*# sourceMappingURL=sub.css.map */
